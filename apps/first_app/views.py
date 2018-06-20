@@ -1,6 +1,6 @@
 from django.shortcuts import render, HttpResponse, redirect
 from django.contrib import messages
-from models import *
+from .models import *
 from django.core import serializers
 import json
 def index(request):
